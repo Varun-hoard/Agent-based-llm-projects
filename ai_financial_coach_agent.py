@@ -864,7 +864,7 @@ def main():
                             "min_payment": min_payment
                         })
                         
-                        if col_idx == 2 or i == num_debts - 1:  # Add spacing after every 3 debts or last debt
+                        if col_idx == 2 or i == num_debts - 1: 
                             st.markdown("---")
         
         st.divider()
@@ -951,13 +951,7 @@ def main():
         
         - All data is processed locally
         - No financial information is stored or transmitted
-        - Secure API communication with Google's services
-        
-        ### Need Help?
-        
-        For support or questions:
-        - Check the [documentation](https://github.com/Shubhamsaboo/awesome-llm-apps)
-        - Report issues on [GitHub](https://github.com/Shubhamsaboo/awesome-llm-apps/issues)
+        - Secure API communication with Google's services.
         """)
 
 if __name__ == "__main__":
